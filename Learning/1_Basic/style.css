@@ -1,0 +1,52 @@
+/* * {
+    background-color: rgb(237, 241, 211);
+} */
+/* element selector */
+h1 {
+    /* color: red; */
+    color: rgb(255, 0, 0);
+}
+/* Class selector */
+.para {
+    color: rgb(0, 0, 255);
+}
+/* id selector */
+#btn {
+    /* background-color:darkblue; */
+    background-color: #ff0000;
+    color: #fff;
+}
+
+/* a:hover {} */
+
+#btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+h1:hover {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+/* hsl() color  and hsla() */
+/* h1 {
+    color: hsl(0, 100%, 50%);
+    color: hsla(0, 100%, 50%, 0.5);
+    color: transparent;
+    color: rgba(255, 0, 0, 0);
+}
+
+p {
+    color: hsl(226, 84%, 17%);
+} */
+
+.hero-section {
+    color: green;
+}
+
+.para {
+    color: currentColor;
+}
