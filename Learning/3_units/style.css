@@ -1,0 +1,65 @@
+body {
+  color: hsl(0%, 0%, 94%);
+}
+
+/*? for pixel */
+h1 {
+  /* font-size: 54px; */
+  color: cyan;
+}
+/* p {font-size: 36px;} */
+/* li {font-size: 44px;} */
+
+/*? Percentage */
+/* 1px = 100/16 = 6.25% */
+/* 6.25 * 54 = 337.5% */
+/* h1 {
+    font-size: 337.5%;
+}
+p {
+    font-size: 225%;
+}
+li {
+    font-size: 275%;
+} */
+
+/*? em */
+/* 1 em = 16px */
+/* h1 {font-size: 3.375em;}
+
+p {font-size: 2.25em;}
+
+.parent {font-size: 10px;}
+
+li {font-size: 2.75em;} */
+
+/*? for 1rem = we can specify the font-size of our will */
+/* we need 1rem = 10px, it makes our life easy */
+/* 16px = 100%
+       1px = 6.26%
+       10px = 62.5% */
+
+/*? rem is also a relative unit like em, but it's based on the font size of the root(html)*/
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  /* 5.4 * 10 = 54px
+       54 / 10 = 5.4 */
+  font-size: 5.4rem;
+}
+
+p {
+  /* 3.6rem = 36px */
+  font-size: 3.6rem;
+}
+
+/* .parent {
+    font-size: 20px;
+} */
+
+li {
+  /* 4.4rem = 44px */
+  font-size: 4.4rem;
+}
