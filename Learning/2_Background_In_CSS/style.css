@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+    height: 100vh; /* viewport Height(vh) */
+    background-color: hsl(0, 0%, 94%); /*set bg color*/
+    background-image: url('https://gratisography.com/wp-content/uploads/2024/10/gratisography-foliage-face-1036x780.jpg'),
+    url('https://gratisography.com/wp-content/uploads/2024/01/gratisography-sweet-kicks-1170x780.jpg');
+    /*set bg image*/
+    
+    background-repeat: no-repeat;  /* determine how bg image repeats values: no-repreat, repeat, repeat-x, repeat-y*/
+    background-size: 100% 100%; /* define size of bg image values: auto, cover, contain, %, length value */
+    background-position: top right; /* sets starting position of the bg image values: top, left, bottom, right, %, len value */
+    background-attachment: fixed; /*specifies if the bg image scrolls with the image values: fixed, scroll, locals*/
+    /* latest CSS3 */
+    background-blend-mode: overlay; /* if 2 or more than 2 images or colors then you can mixed value given: difference, multiply, overlay */
+}
