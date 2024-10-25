@@ -100,7 +100,7 @@ a {
   
   p::first-letter {
     text-transform: uppercase;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 600;
   }
   
