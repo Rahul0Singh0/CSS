@@ -86,7 +86,7 @@ p {
   
   /*? 3: How can you make an element's content box 300 pixels wide with a 10-pixel border and 20-pixel padding? */
   
-  /* section {
+  /* .temp {
     width: 300px;
     border: 5px solid red;
     padding: 10px;
@@ -95,4 +95,6 @@ p {
   
   /*? 4: How can you globally apply box-sizing: border-box; to all elements on a web page? ⭐⭐⭐*/
   /*? Here comes the Universal Operator  */
-  
+  /* * {
+    box-sizing: border-box;
+  } */
