@@ -26,10 +26,46 @@ When using border-box, an element's width and height include its content, paddin
 In this case, if you set the width of an element to 100 pixels, and then add 10 pixels of padding and a 2-pixel border, the content area will be adjusted to fit within the specified 100-pixel width, and the padding and border are contained within that. */
 
 /** ---------------------------------------- --> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*? read out about this below*/
+}
 
 
+html {
+  font-family: Urbanist;
+}
 
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  
+}
 
+#main-heading {
+  padding: 40px 0; /*? vertically - Horizontally*/
+  font-weight: bold;
+  font-size: 48px;
+  color: #031721;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  letter-spacing: 1px; /*? Apply each and every characters*/
+  font-size: 18px;
+}
+
+.section-one {
+  width: 800px;
+  background-color: #0f2c59;
+  color: #fff;
+  border: 20px solid #337ccf;
+  padding: 50px;
+  margin: 0 auto; /*? top-bottom / left-right*/
+}
   
   /** ------------------------------------- -->
   /**  NOTES + TIPS 
