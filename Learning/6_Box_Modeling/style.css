@@ -82,7 +82,9 @@ p {
   /*? 1: Explain what the CSS Box Model is and its components. */
   
   /*? 2: What is the purpose of the box-sizing property in CSS? ⭐⭐ */
-  /* The box-sizing property controls how the total width and height of an element are calculated. The two values it can take are content-box (default) and border-box. content-box calculates the total size including padding and border, while border-box calculates the total size including only padding. */
+  /* The box-sizing property controls how the total width and height of an element are calculated.
+   The two values it can take are content-box (default) and border-box. content-box calculates the total size including padding and border, 
+   while border-box calculates the total size including only padding. */
   
   /*? 3: How can you make an element's content box 300 pixels wide with a 10-pixel border and 20-pixel padding? */
   
