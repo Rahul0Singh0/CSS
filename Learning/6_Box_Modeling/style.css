@@ -23,7 +23,8 @@ This means that if you set the width of an element to 100 pixels, and then add 1
 
 /**  box-sizing: border-box:
 When using border-box, an element's width and height include its content, padding, and border. Padding and border are subtracted from the specified width and height.
-In this case, if you set the width of an element to 100 pixels, and then add 10 pixels of padding and a 2-pixel border, the content area will be adjusted to fit within the specified 100-pixel width, and the padding and border are contained within that. */
+In this case, if you set the width of an element to 100 pixels, and then add 10 pixels of padding and a 2-pixel border, the content area will be adjusted to fit within 
+the specified 100-pixel width, and the padding and border are contained within that. */
 
 /** ---------------------------------------- --> */
 * {
