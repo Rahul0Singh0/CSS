@@ -54,9 +54,10 @@ body {
 }
 
 ul {
+  /* list-style-type: lower-alpha; */
   list-style-type: decimal;
   list-style-position: inside;
-  /* list-style-image: url("../images/mario-run.gif"); */
+  list-style-image: url("../images/mario-run.gif");
 }
 
 li {
